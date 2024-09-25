@@ -1,0 +1,33 @@
+
+
+Acessar o GitHub e copiar o link Html
+
+Acessar anaconda3 > anaconda prompt
+cd desktop enter
+git clone <colar o código html>
+
+
+Anaconda Prompt
+
+cd #Navegar nas páginas 
+Exemplo:
+cd desktop
+cd AED1
+cd aula06
+jupyter notebook # irá abrir no navegador 
+
+---------------------------------------------
+kame_Case usar para variáveis pyton 
+Exemplo: dia_pagto
+
+---------------------------------------------
+pyton.org
+PEP 8
+
+
+
+
+
+
+
+

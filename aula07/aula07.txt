@@ -1,0 +1,46 @@
+Aula07
+input({})
+int
+float
+print () #resultado
+str #string
+
+
+indentação (obrigatório) = 4 espaços ou tab para separar o código 
+
+= atribuição #
+== é igual
+!= não igual (diferente)
+if #se
+elif : #senão se
+else #senão
+boleano # true or false
+Texto pode ser usado tanto aspas simples como duplas,
+
+Método antigo
+%s # será substituída por uma string
+%r # será substituído por um número real
+usar f na declaração e informar as variávei entre chaves é o método mais atual.
+Exemplo: 
+
+disciplina = 'Algoritmos'
+nota_final = 90
+semestre = 1
+
+if disciplina == 'Algoritmos' and nota_final >= 80 and semestre != 2:
+    # print('Você foi aprovado em %s com média final %r!' %(disciplina, nota_final))
+    print(f"Você foi aprovado em {disciplina} com média final {nota_final}")
+else:
+    print('Lamento, acho que você precisa estudar mais!')
+
+letra. <tab> gera lista das funções
+
+
+Faça um Programa que verifique se uma letra digitada é vogal ou consoante.
+
+letra = input("Digite uma letra").upper()
+vogais = "AEIOU"
+if letra.upper() in "AEIOU":
+    print(f"'{letra}' é uma vogal")
+else:   
+    print(f"'{letra}' é uma consoante")

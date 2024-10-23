@@ -1,0 +1,15 @@
+relação dos caractere especiais do tipo string
+
+Sequências	Significado
+\n	Nova linha (LF ou 0x0A (10) em ASCII)
+\r	Retorno de carro (CR ou 0x0D (13) em ASCII)
+\t	Tabulação horizontal (HT ou 0x09 (9) em ASCII)
+\v	Tabulação vertical (VT ou 0x0B (11) em ASCII)
+\e	Escape (ESC or 0x1B (27) em ASCII)
+\f	Form feed (FF ou 0x0C (12) em ASCII)
+\\	contrabarra ou barra invertida
+\$	Sinal de cifrão
+\"	aspas duplas
+\[0-7]{1,3}	Octal: uma sequência de caracteres que coincide com a expressão regular [0-7]{1,3} é um caracter em notação octal (por exemplo, "\101" === "A"), o qual é silenciosamente turcado para um byte (por exemplo "\400" === "\000")
+\x[0-9A-Fa-f]{1,2}	Hexadecimal: uma sequência de caracteres que coincide com a expressão regular [0-9A-Fa-f]{1,2} é um caracter em notação decimal (por exemplo, "\x41" === "A")
+\u{[0-9A-Fa-f]+}	Unicode: uma sequência de caracteres coincidindo com a expressão regular [0-9A-Fa-f]+ é um codepoint Unicode, o qual terá como resultado uma string contendo a representação UTF-8 desses codepoints. Os colchetes são requeridos. Por exemplo, "\u{41}" === "A"

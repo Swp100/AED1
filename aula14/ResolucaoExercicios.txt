@@ -1,0 +1,10 @@
+
+1)
+
+def soma(x, y, z)
+    return x+y+z
+
+x, y, z = input("numeros: ").slipt()	
+
+
+Treinar gitHub: criar novo repositório com o nome "prova", fazer o clone e subir o arquivo

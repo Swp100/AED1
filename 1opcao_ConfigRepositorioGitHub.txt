@@ -1,0 +1,49 @@
+1. Crie o repositório no GitHub
+Acesse: https://github.com
+
+Clique em “New repository”
+
+Nomeie como Prova
+
+Marque como privado ou público conforme desejar
+
+Não adicione README, .gitignore nem licença (para evitar conflitos ao clonar)
+
+2. Prepare o ambiente no computador público
+Assumindo que o Git está instalado:
+
+
+cd Prova
+
+# Copie o(s) arquivo(s) que você quer subir para essa pasta
+cp /caminho/do/seu/arquivo.txt .
+
+# Inicialize o repositório Git
+git init
+
+# Adicione o arquivo
+git add .
+
+# Faça o commit
+git commit -m "Primeiro commit"
+
+
+3. Suba o código com HTTPS (mais seguro em PC público)
+Obtenha a URL HTTPS do repositório
+Vá até seu repositório no GitHub e copie o link HTTPS, algo como:
+
+https://github.com/seu-usuario/Prova.git
+
+Conecte e envie:
+
+git remote add origin https://github.com/seu-usuario/Prova.git
+git branch -M main
+git push -u origin main
+
+
+4. Use um token de acesso pessoal (PAT)
+Vá para: https://github.com/settings/tokens
+
+Gere um token com permissão de repo
+
+Use esse token como senha ao fazer o push

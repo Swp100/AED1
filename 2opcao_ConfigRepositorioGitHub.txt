@@ -1,0 +1,18 @@
+1) Acessar o GitHub e criar o repositório
+
+2) Prepare o ambiente no computador
+	Criar uma pasta e salve o arquivo que irá subir no github
+
+3)
+
+git init
+git add .
+git commit - m "Primeiro commit"
+
+4)Configurando o repositório
+git remote add origin https://github.com/Swp100/TesteProva2.git
+git config user.name "Swp100"
+git config user.email "samuel_wp@hotmai.com"
+
+
+
